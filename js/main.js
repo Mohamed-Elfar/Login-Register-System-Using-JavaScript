@@ -131,6 +131,6 @@ const logOut = document.getElementById("logOut");
 if (logOut) {
   logOut.addEventListener("click", function (e) {
     localStorage.removeItem("token");
-    window.location.href = "../index.html";
+    window.location.href = "./index.html";
   });
 }
