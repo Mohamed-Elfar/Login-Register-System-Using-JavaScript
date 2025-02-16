@@ -20,4 +20,4 @@ A simple **Login and Registration System** built using HTML, CSS, and JavaScript
 3. Register a new account or log in with existing credentials.
 
 ## Live Demo
-[View Live Demo](https://Mohamed-Elfar.github.io/login-registration-system/)
+[View Live Demo](https://mohamed-elfar.github.io/Login-Register-System-Using-JavaScript/)
