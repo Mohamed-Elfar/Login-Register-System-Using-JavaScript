@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bolder logo" href="#">
+          <img src="./img/logo.png" alt="logo" />
+          <h2>System</h2></a
+        >
+
+        <div class="btns">
+          <button class="btn bg-white rounded-1 fw-bold">
+            <a href="/login.html">LOG IN</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main role="main">
+      <section class="register bg-white">
+        <div class="row row-cols-2 register__row">
+          <div class="col card__one m-auto">
+            <div class="card__body">
+              <h2 class="text-center fw-bold">Sign Up</h2>
+              <form action="#" id="register-form">
+                <div class="input-field m-0">
+                  <input
+                    type="text"
+                    id="registerName"
+                    required
+                    placeholder="Name"
+                    autocomplete="name"
+                  />
+                  <div id="nameError" class="error-message"></div>
+                </div>
+                <div class="input-field">
+                  <input
+                    type="text"
+                    id="registerEmail"
+                    required
+                    placeholder="Email"
+                    autocomplete="username"
+                  />
+                  <div id="emailError" class="error-message"></div>
+                </div>
+                <div class="input-field m-0">
+                  <input
+                    type="password"
+                    id="registerPassword"
+                    required
+                    placeholder="Password"
+                    autocomplete="new-password"
+                  />
+                  <div id="passwordError" class="error-message"></div>
+                </div>
+                <a href="#" class="forgot-pass-link">Forgot password?</a>
+                <button class="btn submit__btn" type="submit" dis>
+                  Register
+                </button>
+              </form>
+              <div class="bottom-link text-center">
+                <p>
+                  Already have an account? <a href="/login.html">Login here</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col card__two">
+            <div class="card__image">
+              <img src="./img/signup-img.jpg" alt="" />
+              <div class="form__details">
+                <h2>Ready to Dive In?</h2>
+                <p class="w-75 m-auto py-3">
+                  Sign up now and start your journey with us. The adventure
+                  begins here!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

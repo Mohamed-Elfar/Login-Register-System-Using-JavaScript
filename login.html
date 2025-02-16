@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bolder logo" href="#">
+          <img src="./img/logo.png" alt="logo" />
+          <h2>System</h2></a
+        >
+
+        <div class="btns">
+          <button class="btn bg-white rounded-1 fw-bold">
+            <a href="/index.html">Rgister</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main role="main">
+      <section class="login bg-white">
+        <div class="row row-cols-2">
+          <div class="col card__one">
+            <div class="card__image">
+              <img src="./img/signup-img.jpg" alt="" />
+              <div class="form__details">
+                <h2>Welcome Back</h2>
+                <p class="w-75 m-auto py-3">
+                  Please log in using your personal information to stay
+                  connected with us.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col card__two m-auto">
+            <div class="card__body">
+              <h2 class="text-center fw-bold">LOGIN</h2>
+              <form action="#" id="login-form">
+                <div class="input-field">
+                  <input
+                    type="text"
+                    required
+                    placeholder="Email"
+                    id="loginEmail"
+                    autocomplete="username"
+                  />
+                  <div id="loginEmailError" class="error-message"></div>
+                </div>
+                <div class="input-field m-0">
+                  <input
+                    type="password"
+                    required
+                    placeholder="Password"
+                    id="loginPassword"
+                    autocomplete="new-password"
+                  />
+                  <div id="loginPasswordError" class="error-message"></div>
+                </div>
+                <a href="#" class="forgot-pass-link">Forgot password?</a>
+                <button class="btn logIn__btn" type="submit">Log In</button>
+              </form>
+              <div class="bottom-link text-center">
+                Don't have an account?
+                <a href="/index.html" id="signup-link">Signup</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
